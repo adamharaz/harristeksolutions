@@ -8,7 +8,7 @@ function loadXML() {
             parseXML(this.responseXML);
         }
     };
-    xhr.open("GET", "data.xml", true);
+    xhr.open("GET", "harristeksolutions.WordPress.2023-11-19.xml", true);
     xhr.send();
 }
 
