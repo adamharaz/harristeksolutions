@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HarrisTek Solutions Inc — IT Consulting & DevOps</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="logo" href="#hero">Harris<span>Tek</span></a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact" class="btn-nav">Get In Touch</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="badge">IT Consulting &amp; Professional Services</div>
+      <h1>Powering Businesses Through<br /><span class="gradient-text">Automation &amp; DevOps</span></h1>
+      <p class="hero-sub">HarrisTek Solutions Inc delivers expert IT consulting focused on modern Automation Frameworks and DevOps transformation — helping your team ship faster, smarter, and more reliably.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">Start a Conversation</a>
+        <a href="#services" class="btn-ghost">Our Services ↓</a>
+      </div>
+    </div>
+    <div class="hero-terminal">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="terminal-title">harrisTek@devops ~ </span>
+      </div>
+      <div class="terminal-body" id="terminal-body"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-inner">
+      <div class="section-label">What We Do</div>
+      <h2>Our Core Services</h2>
+      <p class="section-sub">End-to-end consulting from strategy to execution — we specialize in the tools and processes that modern engineering teams depend on.</p>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">⚙️</div>
+          <h3>Automation Framework Design</h3>
+          <p>We architect and implement robust test and process automation frameworks tailored to your stack — from CI-integrated test suites to RPA workflows that eliminate repetitive manual work.</p>
+          <ul>
+            <li>Test automation strategy &amp; architecture</li>
+            <li>Selenium, Playwright, Cypress, Robot Framework</li>
+            <li>API &amp; performance testing pipelines</li>
+            <li>RPA &amp; intelligent process automation</li>
+          </ul>
+        </div>
+
+        <div class="service-card featured">
+          <div class="service-icon">🚀</div>
+          <h3>DevOps Transformation</h3>
+          <p>We help organizations adopt DevOps culture and tooling — building the pipelines, infrastructure, and practices that accelerate delivery and reduce risk.</p>
+          <ul>
+            <li>CI/CD pipeline design &amp; implementation</li>
+            <li>Infrastructure as Code (Terraform, Ansible)</li>
+            <li>Kubernetes &amp; container orchestration</li>
+            <li>Cloud migration (AWS, Azure, GCP)</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔍</div>
+          <h3>DevOps Assessment &amp; Strategy</h3>
+          <p>Not sure where to start? We audit your existing setup, identify bottlenecks, and deliver a clear roadmap to mature your engineering operations.</p>
+          <ul>
+            <li>Current-state assessment &amp; gap analysis</li>
+            <li>DORA metrics baseline &amp; improvement plan</li>
+            <li>Toolchain evaluation &amp; recommendations</li>
+            <li>Team enablement &amp; training</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📊</div>
+          <h3>Observability &amp; Monitoring</h3>
+          <p>You can't improve what you can't measure. We instrument your systems with best-in-class observability so your team has the visibility it needs.</p>
+          <ul>
+            <li>Logging, metrics &amp; distributed tracing</li>
+            <li>Grafana, Prometheus, Datadog, ELK Stack</li>
+            <li>Alerting strategy &amp; on-call runbooks</li>
+            <li>SLO/SLA definition &amp; dashboards</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔐</div>
+          <h3>DevSecOps &amp; Compliance</h3>
+          <p>Security built into the pipeline from day one — not bolted on at the end. We integrate security scanning and compliance checks into your CI/CD flows.</p>
+          <ul>
+            <li>SAST/DAST tool integration</li>
+            <li>Secret management (Vault, AWS Secrets Manager)</li>
+            <li>Compliance automation (SOC2, HIPAA, PCI)</li>
+            <li>Container &amp; dependency vulnerability scanning</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🤝</div>
+          <h3>Fractional Engineering Leadership</h3>
+          <p>Need senior DevOps or QA Automation leadership without the full-time cost? We embed as strategic partners to guide your team and accelerate outcomes.</p>
+          <ul>
+            <li>Fractional DevOps / QA lead engagement</li>
+            <li>Hiring &amp; team-building guidance</li>
+            <li>Process maturity coaching</li>
+            <li>Vendor &amp; tooling contract advisory</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner about-inner">
+      <div class="about-text">
+        <div class="section-label">About Us</div>
+        <h2>Built by Engineers,<br />for Engineering Teams</h2>
+        <p>HarrisTek Solutions Inc was founded on a simple belief: great software delivery starts with the right processes, tools, and culture. We are a boutique IT consulting firm that works closely with startups, scale-ups, and enterprise teams to modernize the way they build and ship software.</p>
+        <p>We don't believe in one-size-fits-all solutions. Every engagement begins with listening — understanding your constraints, your goals, and your team — before we ever recommend a tool or write a line of config.</p>
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">15+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3x</span>
+            <span class="stat-label">Avg. Deploy Frequency Increase</span>
+          </div>
+        </div>
+      </div>
+      <div class="tech-stack">
+        <div class="tech-label">Technologies We Work With</div>
+        <div class="tech-grid">
+          <span>Jenkins</span><span>GitHub Actions</span><span>GitLab CI</span>
+          <span>Terraform</span><span>Ansible</span><span>Kubernetes</span>
+          <span>Docker</span><span>AWS</span><span>Azure</span>
+          <span>GCP</span><span>Selenium</span><span>Playwright</span>
+          <span>Pytest</span><span>Robot Framework</span><span>Datadog</span>
+          <span>Grafana</span><span>Prometheus</span><span>Vault</span>
+          <span>Python</span><span>Bash</span><span>Go</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why-us">
+    <div class="section-inner">
+      <div class="section-label">Why HarrisTek</div>
+      <h2>The HarrisTek Difference</h2>
+      <p class="section-sub">We're not a body shop. We're a strategic partner invested in your long-term success.</p>
+      <div class="pillars-grid">
+        <div class="pillar">
+          <div class="pillar-icon">🎯</div>
+          <h4>Outcome-Focused</h4>
+          <p>We define success by your business results — faster deployments, fewer incidents, reduced toil — not by hours billed.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">⚡</div>
+          <h4>Rapid Time-to-Value</h4>
+          <p>We move fast. Our engagements are structured to deliver tangible improvements within the first two weeks.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">📚</div>
+          <h4>Knowledge Transfer</h4>
+          <p>We leave your team stronger. Every engagement includes documentation, training, and mentorship so you own the outcome.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🔧</div>
+          <h4>Tool-Agnostic</h4>
+          <p>We recommend what's right for you — not what's easiest for us. Our advice isn't influenced by vendor relationships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner contact-inner">
+      <div class="contact-text">
+        <div class="section-label">Contact</div>
+        <h2>Let's Build Something Great Together</h2>
+        <p>Whether you're starting from scratch or modernizing an existing setup, we'd love to hear about your challenges. Reach out and we'll respond within one business day.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <span>info@harristeksolutions.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>United States &mdash; Remote-First, Available Nationwide</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@company.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Service of Interest</label>
+          <select id="service">
+            <option value="">Select a service…</option>
+            <option>Automation Framework Design</option>
+            <option>DevOps Transformation</option>
+            <option>DevOps Assessment &amp; Strategy</option>
+            <option>Observability &amp; Monitoring</option>
+            <option>DevSecOps &amp; Compliance</option>
+            <option>Fractional Engineering Leadership</option>
+            <option>Other / Not Sure Yet</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell us about your project or challenge…" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">Send Message →</button>
+        <div id="form-success" class="form-success hidden">Thanks! We'll be in touch within one business day.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Harris<span>Tek</span> Solutions Inc</div>
+      <p class="footer-tagline">Automation &bull; DevOps &bull; IT Consulting</p>
+      <p class="footer-copy">&copy; 2026 HarrisTek Solutions Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
